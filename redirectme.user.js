@@ -1,12 +1,15 @@
 // ==UserScript==
 // @name RedirectMe
-// @description Simple Redirection Script for Youtube.com
+// @name:es RedirectMe
+// @description A simple redirection userscript for Youtube.com
+// @description:es Un simple userscript de redireccion para youtube.com
 // @namespace Backend
 // @match http://www.youtube.com/*
 // @match https://www.youtube.com/*
 // @version 1.0
 // @run-at document-start
 // @grant none
+// @license GPLV3
 // ==/UserScript==
 var a = 0;
 const FRONTEND = "poketube.fun"
